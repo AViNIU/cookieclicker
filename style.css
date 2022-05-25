@@ -1,7 +1,42 @@
-.cookie
+
+body
+{
+    font-family: 'Secular One', sans-serif;
+    background-color: rgb(54, 54, 54);
+}.cookie
 {
     width: 200px;
     height: 200px;
     margin: auto;
     background-color: black;
+    border-radius: 200px;
+    user-select: none;
+    border: 2px black solid;
+    -moz-box-shadow:    inset 0 0 20px #ff0000;
+   -webkit-box-shadow: inset 0 0 20px #ff0000;
+   box-shadow:         inset 0 0 20px #ff0000;
+}
+.mult{
+    width: 150px;
+    height: 150px;
+    border: 2px black solid;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 75px;
+}
+.err
+{
+    text-align: center;
+    padding-top: 40px;
+    
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hajs
+{
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 60px;
 }
